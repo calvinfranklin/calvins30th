@@ -1,0 +1,37 @@
+   @font-face {
+    font-family: 'Summer Farmhouse Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Summer Farmhouse Regular'), url('Summer-Farmhouse-BF654b941ba05eb.woff') format('woff');
+    }
+       @font-face {
+    font-family: 'Birthday Flowers Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Birthday Flowers Regular'), url('Birthday Flowers Italic Font by Keithzo.woff') format('woff');
+    }
+h1 {
+    color: red;
+    text-align: center;
+    font-family: Summer Farmhouse Regular;
+    font-size: 6em;
+}
+h2 {
+    text-align: center;
+    font-family: Birthday Flowers Regular;
+    font-size: 3em;
+}
+body {
+  background-image: url('baloons.jpg'); 
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+}
+audio {
+    display: block;
+    margin: 0 auto;
+}
+p {
+    text-align: center;
+}
